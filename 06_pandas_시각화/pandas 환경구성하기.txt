@@ -1,0 +1,63 @@
+20241015
+
+pandas
+
+
+conda info -e
+가상환경 확인
+
+conda deactivate
+
+
+conda create -n ml python=3.12
+파이썬 설치
+
+1. ml 가상환경 생성
+conda activate ml
+ml(머신러닝)가상환경 생성
+
+2.
+pip install jupyterlab pandas
+ml 내  '주피터랩 설치 + 판다스' 설치함
+
+2-1
+pip freeze  사용중인 버전 확인
+pip list
+pip list --format=freeze(유니코드 오류 떄문에 사용함)
+
+2.2
+pip list --format=freeze > requirements.txt   #파일명 --> 화면이 아닌 파일의 형태로 출력 형태를 지정함
+
+
+
+3. test 가상환경 생성
+conda create -n test python=3.12
+test가상환경내 파이썬 설치
+
+conda activate test
+test환경 활성화
+
+pip install -r requirements.txt    # 파일을 text 환경에 모두 설치해줌
+
+
+예)  파일내 필요한 환경 설치 요소를 작성하여 편리하게 사용함
+requirements.txt    
+   
+co
+pandas                2.2.3
+
+
+####################################################################################################################################
+
+20241016
+
+slicing
+
+
+series
+
+
+정렬
+
+######################################################
+
